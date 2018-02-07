@@ -278,6 +278,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = S5APMFYMMC;
 				INFOPLIST_FILE = TestApp/Info.plist;
@@ -295,6 +296,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = S5APMFYMMC;
 				INFOPLIST_FILE = TestApp/Info.plist;
@@ -302,8 +304,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.guolianSecurites.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "b66fb52d-6415-4758-b69c-0097218cffde";
-				PROVISIONING_PROFILE_SPECIFIER = glWildcardTest;
+				PROVISIONING_PROFILE = "1a573210-ac86-4cbd-98fb-c23071c41eb8";
+				PROVISIONING_PROFILE_SPECIFIER = guoliantest_inhouse_qy_release;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
